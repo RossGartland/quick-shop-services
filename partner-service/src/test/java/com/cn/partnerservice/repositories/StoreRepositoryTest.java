@@ -18,7 +18,7 @@ class StoreRepositoryTest {
     @Test
     public void createStore()  {
         Store store = Store.builder()
-                .storeName("Test Name")
+                .storeName("Tester Name")
                 .phoneNumber("01632 945732")
                 .emailAddress("Johnsshop@cntestmailuu.com")
                 .address("34 Oak Lane, Banbridge, County Down, BT41 7CN")
